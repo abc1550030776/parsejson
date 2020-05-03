@@ -1,0 +1,87 @@
+﻿  正在验证源
+  正在将源远程复制到“198.52.109.67”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(124,35): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(124,35): warning :   for (; startPos + len < str.size(); ++len)
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(124,35): warning :                                    ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(139,24): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(139,24): warning :   for (; pos < str.size(); ++pos)
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(139,24): warning :                         ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(154,42): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(154,42): warning :   for (int i = 1; i + startPos < str.size(); ++i)
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(154,42): warning :                                           ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(200,42): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(200,42): warning :   for (int i = 1; i + startPos < str.size(); ++i)
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(200,42): warning :                                           ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(211,33): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(211,33): warning :     if (i + startPos >= str.size())
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(211,33): warning :                                  ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(254,42): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(254,42): warning :   for (int i = 1; i + startPos < str.size(); ++i)
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(254,42): warning :                                           ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(265,33): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(265,33): warning :     if (i + startPos >= str.size())
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(265,33): warning :                                  ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(376,36): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(376,36): warning :    for (; len + startPos < str.size(); ++len)
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(376,36): warning :                                     ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(313,6): warning : unused variable ‘stringLen’ [-Wunused-variable]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(313,6): warning :   int stringLen = 0;
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(313,6): warning :       ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(416,14): warning : deleting object of abstract class type ‘JsonValue’ which has non-virtual destructor will cause undefined behaviour [-Wdelete-non-virtual-dtor]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(416,14): warning :    delete it->second;
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(416,14): warning :               ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(425,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(425,22): warning :   if (pos >= str.size())
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(425,22): warning :                       ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(437,24): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(437,24): warning :   while (pos < str.size())
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(437,24): warning :                         ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(444,7): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(444,7): warning :    pos += key.size();
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(444,7): warning :        ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(446,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(446,23): warning :    if (pos >= str.size())
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(446,23): warning :                        ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(457,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(457,23): warning :    if (pos >= str.size())
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(457,23): warning :                        ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(492,7): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(492,7): warning :    pos += value.size();
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(492,7): warning :        ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(494,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(494,23): warning :    if (pos >= str.size())
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(494,23): warning :                        ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(506,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(506,22): warning :   if (pos >= str.size())
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(506,22): warning :                       ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(525,11): warning : deleting object of abstract class type ‘JsonValue’ which has non-virtual destructor will cause undefined behaviour [-Wdelete-non-virtual-dtor]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(525,11): warning :    delete *it;
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(525,11): warning :            ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(535,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(535,22): warning :   if (pos >= str.size())
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(535,22): warning :                       ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(546,24): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(546,24): warning :   while (pos < str.size())
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(546,24): warning :                         ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(578,7): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(578,7): warning :    pos += value.size();
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(578,7): warning :        ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(580,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(580,23): warning :    if (pos >= str.size())
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(580,23): warning :                        ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(592,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(592,22): warning :   if (pos >= str.size())
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(592,22): warning :                       ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(627,14): warning : deleting object of abstract class type ‘JsonValue’ which has non-virtual destructor will cause undefined behaviour [-Wdelete-non-virtual-dtor]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(627,14): warning :    delete it->second;
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(627,14): warning :               ^
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(653,11): warning : deleting object of abstract class type ‘JsonValue’ which has non-virtual destructor will cause undefined behaviour [-Wdelete-non-virtual-dtor]
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(653,11): warning :    delete *it;
+C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\main.cpp(653,11): warning :            ^
+  正在链接对象
+  ConsoleApplication1.vcxproj -> C:\Users\15500\source\repos\ConsoleApplication1\ConsoleApplication1\bin\x64\Debug\ConsoleApplication1.out
